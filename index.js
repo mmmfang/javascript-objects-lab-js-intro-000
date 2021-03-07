@@ -1,7 +1,5 @@
-function updateObjectWithKeyAndValue(obj, key, value){
-  return obj = {key:value};
-}
-function updateObjectWithKeyAndValue(obj, key, value) {
-  newObj = obj;
-  return newObj; 
+var obj = {foo:bar;}
+
+function updateObjectWithKeyAndValue(object, key, value) {
+  return object = {key:value;}
 }
